@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COURSE </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-md ">
+<div class="container fluid">
+<a class="navbar-brand imm" href="#"><img src="img/hope.png" style=" height: 50px; width:50px;"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item active">
+<a class="nav-link" href="#">Our Courses</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="#">Username</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="index.html">Logout</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<div class="container-fluid">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-2" style="margin-left: -30px;">
+				<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  				  <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="height: 10vh;">Announcement</a>
+				  <a class="nav-link text-center" id="v-pills-profile-tab " data-toggle="pill" href="#myc" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="height: 10vh;">My Courses</a>
+				  <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="height: 10vh;">Browse More</a>
+				  <a class="nav-link text-center" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="height: 10vh;">Mentors</a>
+				  <a class="nav-link text-center" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="height: 10vh;">FAQ</a>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div class="col-md-12">
+				<div class="row">
+				  <table class="table table-bordered">
+				  <thead >
+				    <tr>
+
+				      <th colspan="3" class="coll">Progress Bar</th>
+				      
+				    </tr>
+				    <tr>
+				    	<th>Course Name</th>
+				    	<th>Videos Completed</th>
+				    	<th>Books Read</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th>AOA</th>
+				      <td>2</td>
+				      <td>1</td>
+				    </tr>
+				    <tr>
+				      <th>DBMS</th>
+				      <td>1</td>
+				      <td>0.5</td>
+				    </tr>
+				    <tr>
+				      <th >WDL</th>
+				      <td >3</td>
+				      <td>3</td>
+				    </tr>
+				  </tbody>
+				</table>
+				<hr my-4 >
+				<table class="table table-bordered">
+					<thead >
+				    <tr>
+
+				      <th colspan="2" class="coll" id="myc">Your Courses</th>
+				      <th><button class="btn btn-outline-secondary" >Add New Course</button></th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr >
+				        <th style="width: 33.33%;"><div class="card" style="height: 700px;">
+						<img class="card-img-top" src="img/aoa.png" style="height:250px; width: 100%;">
+						<div class="card-body">
+						<h4 class="card-title">AOA</h4>
+						<p class="card-text">Our AOA Tutorial includes all topics of algorithm, asymptotic analysis, algorithm control structure, recurrence, master method, recursion tree method, simple sorting algorithm, bubble sort, selection sort, insertion sort, divide and conquer, binary search, merge sort, counting sort, lower bound theory etc.</p>
+						<a href="specific.html" class="btn btn-outline-secondary">Click here</a>
+						</div></th>
+						 <th style="width: 33.33%;"><div class="card" style="height: 700px;">
+						<img class="card-img-top" src="img/dbms.jpg" style="height:250px; width: 100%;">
+						<div class="card-body">
+						<h4 class="card-title">DBMS</h4>
+						<p class="card-text">Database management systems. Books in this subject area deal with database management systems: computer software that allows users and other software to store and retrieve data in a structured way.</p><br><br><br>
+						<a href="#" class="btn btn-outline-secondary">Click here</a>
+						</div></th>
+						 <th style="width: 33.33%;"><div class="card" style="height: 700px;">
+						<img class="card-img-top" src="img/wdl.jpg" style="height:250px; width: 100%;">
+						<div class="card-body">
+						<h4 class="card-title">WDL</h4>
+						<p class="card-text">HTML and CSS go hand in hand for developing flexible, attractive, and user-friendly websites. HTML (Hyper Text Markup Language) is used to show content on the page whereas CSS is used for presenting the page. HTML describes the structure of a Website semantically along with presentation cues.</p><br>
+						<a href="#" class="btn btn-outline-secondary">Click here</a>
+						</div></th>
+				    </tr>
+				  </tbody>
+				</table>
+				
+				<div class="col-md-6">
+					<table class="table table-bordered">
+				  <thead >
+				    <tr>
+
+				      <th colspan="3" class="coll">Quiz Report</th>
+		
+				    </tr>
+				    <tr>
+				    	<th>Course Name</th>
+				    	<th>Quizzes Completed</th>
+				    	<th>Average Score</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th>AOA</th>
+				      <td>2</td>
+				      <td> 10</td>
+				    </tr>
+				    <tr>
+				      <th>DBMS</th>
+				      <td>1</td>
+				      <td>7</td>
+				    </tr>
+				    <tr>
+				      <th >WDL</th>
+				      <td >3</td>
+				      <td>8</td>
+				    </tr>
+				  </tbody>
+				</table>
+				</div>
+				<div class="col-md-6">
+					<table class="table table-bordered" >
+				  <thead >
+				    <tr>
+
+				      <th colspan="3" class="coll">Mentor Comments</th>
+		
+				    </tr>
+				    <tr>
+				    	<th>Course Name</th>
+				    	<th>Mentor Name</th>
+				    	<th>Remark</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th>AOA</th>
+				      <td>ram</td>
+				      <td>well done</td>
+				    </tr>
+				    <tr>
+				      <th>DBMS</th>
+				      <td>shyam</td>
+				      <td>can do better</td>
+				    </tr>
+				    <tr>
+				      <th >WDL</th>
+				      <td>naam</td>
+				      <td>good work</td>
+				    </tr>
+				  </tbody>
+				</table>
+				</div>
+			</div></div>
+			
+			
+		</div></div>
+	</div>
+	
+</div>
+<div class="col-12 text-center" style="background-color: #d5d5d5;">
+				<hr class="light">
+				<h5> &copy; hope.foundation@org</h5>
+			</div>
+</body>
+</html>
